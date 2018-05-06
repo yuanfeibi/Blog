@@ -1,0 +1,16 @@
+---
+layout: default
+title: Yuanfei Bi's Blog
+description: Yuanfei Bi's Blog
+keywords: Yuanfei Bi, 毕远飞, Y Bi
+---
+
+<div class="postlist">
+    {% for post in paginator.posts %}
+    <div class="overview">
+        <div class="date">{{ post.date | date: "%b %d, %Y" }}</div>
+        <div class="detail"><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></div>
+    </div>
+    {% endfor %}
+</div>
+{% include pagination.html %}
