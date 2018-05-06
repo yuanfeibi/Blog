@@ -1,8 +1,7 @@
 # ---------------- #
 #   Main Configs   #
 # ---------------- #
-baseurl:
-url: http://mazhuang.org/jekyll-theme-solid
+baseurl: /blog
 date_format: "ordinal"
 title: jekyll-theme-solid
 author: Zhuang Ma
