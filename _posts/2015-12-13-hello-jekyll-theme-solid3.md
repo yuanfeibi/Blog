@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hello, jekyll-theme-solid
+title: Hello, jekyll-theme-solid3
 categories: [jekyll, test]
 description: say hello
 keywords: jekyll, theme
