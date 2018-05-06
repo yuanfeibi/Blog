@@ -1,11 +1,7 @@
 <div id="post-pagination" class="paginator">
 
   {% if paginator.previous_page %}
-    {% if paginator.previous_page == 1 %}
-    <a href="{{ site.baseurl }}/"><Previous</a>
-    {% else %}
     <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="previous">Previous</a>
-    {% endif %}
   {% else %}
     <span class="previous disabled"><Previous</span>
   {% endif %}
