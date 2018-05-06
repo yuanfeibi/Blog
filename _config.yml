@@ -2,7 +2,7 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-siteurl:  /
+siteurl:  
 pagesurl: /pages/
 date_format: "ordinal"
 title: jekyll-theme-solid
