@@ -6,9 +6,9 @@
         <meta name="description" content="{% if page.description %}{{ page.description }}{% endif %}" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>{% if page.title %} {{ page.title }} {% else %} {{ site.title }} {% endif %} </title>
-        <link rel="stylesheet" href="{{ site.url }}/assets/default.css" type="text/css" />
-        <link rel="stylesheet" href="{{ site.url }}/assets/small.css" type="text/css" media="(max-width: 720px)"/>
-        <link rel="stylesheet" href="{{ site.url }}/assets/syntax.css" type="text/css" />
+	<link rel="stylesheet" href={{ "assets/default.css" | relative_url }} type="text/css" />
+	<link rel="stylesheet" href={{ "assets/small.css" | relative_url }} type="text/css" media="(max-width: 720px)"/>
+	<link rel="stylesheet" href={{ "assets/syntax.css" | relative _url }} type="text/css" />
         <link rel="shortcut icon" href="{{ site.url }}/favicon.ico" type="image/x-icon" />
     </head>
     <body>
