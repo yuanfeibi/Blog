@@ -1,8 +1,8 @@
 # ---------------- #
 #   Main Configs   #
 # ---------------- #
-baseurl:  /blog
-siteurl:  
+url:
+baseurl:  ""
 pagesurl: /pages
 date_format: "ordinal"
 title: jekyll-theme-solid
