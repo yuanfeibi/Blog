@@ -3,7 +3,6 @@ layout: page
 title: Yuanfei Bi
 description: Self-introduction of Yuanfei Bi.
 keywords: Yuanfei Bi, 毕远飞，Y Bi
-permalink: /about/
 ---
 
 **Associate Software Engineer at [MicroStrategy, Inc.](http://www.microstrategy.com/)**

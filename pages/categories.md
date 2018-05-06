@@ -3,7 +3,6 @@ layout: default
 title: Categories
 description: List of posts according to their categories.
 keywords: Categories
-permalink: /categories/
 ---
 
 <div class='tag_cloud'>
