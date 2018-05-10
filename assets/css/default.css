@@ -13,7 +13,7 @@ div.main {
   border: 1px solid LightGrey;
 }
 
-H1, H2, H3, H4 {
+H1, H1N, H2, H2N, H3, H3N, H4, H4N {
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, Helvetica, STKaiti, SimSun, serif; 
   width: 98%;
   line-height: 150%;
@@ -21,16 +21,17 @@ H1, H2, H3, H4 {
 }
 
 H1, H2 {
-  margin-bottom: 1.67em;
-  padding: 0.2em;
+  margin-bottom: 0.1em;
+  padding: 0em;
   border-bottom: 2px LightGrey solid;
 }
 
 H3, H4 {
   margin-top: 2.14em;
   margin-bottom: 1.5em;
-  border-bottom: 1px LightGrey solid;
+  border-bottom: 2px LightGrey solid;
 }
+
 
 blockquote {
   margin: 0 0 0 0.25em;
@@ -190,8 +191,8 @@ div.paginator {
 
 div.post_footer {
   text-align: right;
-  font-size: 0.9em;
-  font-style: italic;
+  font-size: 1em;
+  font-style: normal;
 }
 
 div.post_footer a {

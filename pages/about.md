@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Yuanfei Bi
+title: Yuanfei Bi (毕远飞)
 description: Self-introduction of Yuanfei Bi.
 keywords: Yuanfei Bi, 毕远飞，Y Bi
 ---

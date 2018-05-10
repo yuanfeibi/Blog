@@ -16,12 +16,12 @@
     {% if count == paginator.page %}
       <span class="current-page">{{count}}</span>
     {% else %}
-      <a href="{{ site.url }}/page{{count}}">{{count}}</a>
+      <a href="{{ paginator.next_page_path }}">{{count}}</a>
     {% endif %}
   {% endfor %}
 
   {% if paginator.next_page %}
-  <a class="next" href="{{ site.url }}/page{{paginator.next_page}} | prepend: {{ site.baseurl }}">Next></a>
+  <a class="next" href="{{ paginator.next_page_path }}">Next></a>
   {% else %}
     <span class="next disabled" >Next></span>
   {% endif %}
