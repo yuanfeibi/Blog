@@ -8,6 +8,7 @@ keywords: Tags
 <div class='tag_cloud'>
 {% for tag in site.tags %}
 <a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">{{ tag[0] }}({{ tag[1].size }}) </a>
+<span style="display:inline-block; width: 1em;"></span>
 {% endfor %}
 </div>
 
