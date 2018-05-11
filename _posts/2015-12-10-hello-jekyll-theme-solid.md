@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Hello, jekyll-theme-solid
-categories: [jekyll, test]
+categories: [jekyll, test, tt, tt2, tts]
 tags: [jekyll, test, test2]
 description: say hello
 keywords: jekyll, theme

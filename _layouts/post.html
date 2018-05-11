@@ -4,7 +4,7 @@
     <div class="main">
 	    <h2> {{ page.title }} </h2>
 	    <h3N>
-	    {{ page.date | date: "%b %d, %Y" }}
+	    {{ page.date | date: "%m/%d/%Y" }}
 	    <span style="display:inline-block; width: 3em;"></span>
 	    Categories:
 	    {% for cat in page.categories %}

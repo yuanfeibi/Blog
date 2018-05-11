@@ -8,8 +8,8 @@ keywords: Yuanfei Bi, 毕远飞, Y Bi
 <div class="postlist">
     {% for post in paginator.posts %}
     <div class="overview">
-        <div class="date">{{ post.date | date: "%b %d, %Y" }}</div>
-	<div class="detail"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></div>
+	    <div class="detail"><li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li></div>
+        <div class="date">{{ post.date | date: "%m/%d/%Y" }}</div>
     </div>
     {% endfor %}
 </div>
