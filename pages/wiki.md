@@ -8,7 +8,7 @@ keywords: 维基, Wiki
 <ul>
 {% for wiki in site.wiki %}
 {% if wiki.title != "Wiki Template" %}
-<li><a href="{{ site.url }}{{ wiki.url }}">{{ wiki.title }}</a></li>
+<li><a href="{{ site.baseurl }}{{ wiki.url }}">{{ wiki.title }}</a></li>
 {% endif %}
 {% endfor %}
 </ul>
