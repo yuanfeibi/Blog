@@ -5,16 +5,20 @@
 	    <h2> {{ page.title }} </h2>
 	    <h3N>
 	    {{ page.date | date: "%m/%d/%Y" }}
-	    <span style="display:inline-block; width: 3em;"></span>
+	    <span style="display:inline-block; width: 2em;"></span>
+	    {% if page.categories != blank %}
 	    Categories:
 	    {% for cat in page.categories %}
-	    <a href="{{ site.url }}/categories/#{{ cat }}" title="{{ cat }}">{{ cat }}</a>&nbsp;
+	    <a href="{{ site.baseurl }}{{ site.pagesurl }}/categories/#{{ cat }}" title="{{ cat }}">{{ cat }}</a>&nbsp;
             {% endfor %}
-	    <span style="display:inline-block; width: 3em;"></span>
+	    <span style="display:inline-block; width: 2em;"></span>
+	    {% endif %}
+	    {% if page.tags != blank %}
 	    Tags:
 	    {% for cat in page.tags %}
-	    <a href="{{ site.url }}/categories/#{{ cat }}" title="{{ cat }}">{{ cat }}</a>&nbsp;
+	    <a href="{{ site.baseurl }}{{ site.pagesurl }}/tags/#{{ cat }}" title="{{ cat }}">{{ cat }}</a>&nbsp;
             {% endfor %}
+	    {% endif %}
 	    </h3N>
         {{ content }}
         {% if page.categories %}
