@@ -21,7 +21,7 @@ email:
 markdown: kramdown
 kramdown:
     input: GFM
-paginate: 4
+paginate: 20
 paginate_path: /blog/page:num
 permalink: /:year/:month/:day/:title/
 plugins:
