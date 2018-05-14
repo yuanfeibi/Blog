@@ -76,7 +76,7 @@
 	<script src="{{ "/assets/js/gitment.js" | prepend: site.baseurl | replace: '//', '/' }}"></script>
         <script>
         var gitment = new Gitment({
-            id: '1',
+	    id: '{{ page.url }}',
             owner: '{{ site.gitment.owner }}',
             repo: '{{ site.gitment.repo }}',
             oauth: {
