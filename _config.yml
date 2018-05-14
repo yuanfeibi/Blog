@@ -52,4 +52,4 @@ gitment:
         client_id: 02fec91d3014cd25b77a
         client_secret: 25c65e0b17ec7dee76c4017f44d9253d1a3f3005
 # 在使用其它评论组件时可点击显示 Disqus
-lazy_load_disqus : false
+lazy_load_disqus : true
