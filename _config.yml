@@ -1,7 +1,7 @@
 # ---------------- #
 #   Main Configs   #
 # ---------------- #
-url:
+url:  "https://yuanfeibi.github.io/Blog/"
 baseurl:  "/Blog"
 pagesurl: "/pages"
 date_format: "ordinal"

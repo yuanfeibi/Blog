@@ -72,11 +72,12 @@
       {% endif %}
     {% when 'gitment' %}
         <div id="container"></div>
-	<link rel="stylesheet" href="{{ assets/css/gitment.css | prepend: site.baseurl | replace: '//', '/' }}">
-	<script src="{{ assets/js/gitment.js | prepend: site.baseurl | replace: '//', '/' }}"></script>
+	<link rel="stylesheet" href="{{ "/assets/css/gitment.css" | prepend: site.baseurl | replace: '//', '/' }}">
+	<script src="{{ "/assets/js/gitment.js" | prepend: site.baseurl | replace: '//', '/' }}"></script>
+	test
         <script>
         var gitment = new Gitment({
-            id: '{{ page.url }}',
+            id: '1',
             owner: '{{ site.gitment.owner }}',
             repo: '{{ site.gitment.repo }}',
             oauth: {
