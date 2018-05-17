@@ -7,7 +7,7 @@ body {
 
 div.main {
   margin: auto;
-  padding: 2% 5% 5% 5%;
+  padding: 1% 5% 5% 5%;
   width: 700px;
   line-height: 150%;
   border: 1px solid LightGrey;
@@ -155,10 +155,11 @@ strong {
 }
 
 div.overview {
-  margin: 1em 0.5em 1em 0em;
+  margin: 1.2em 0em 0em 0em;
 }
 
 div.detail {
+  margin-top: -1%;
   margin-left: 5%;
   margin-right: 5%;
   font-size: 1em;
