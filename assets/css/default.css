@@ -155,7 +155,7 @@ strong {
 }
 
 div.overview {
-  margin: 1.2em 0em 0em 0em;
+  margin: 20px 0em 10px 0em;
 }
 
 div.detail {
@@ -166,7 +166,8 @@ div.detail {
   float: left; 
 }
 
-div.date { 
+div.date {
+  display: block;
   padding-top: 1px;
   margin-left: 5%;
   width: 25%; 
