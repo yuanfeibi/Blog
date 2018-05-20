@@ -53,3 +53,6 @@ gitment:
         client_secret: 25c65e0b17ec7dee76c4017f44d9253d1a3f3005
 # 在使用其它评论组件时可点击显示 Disqus
 lazy_load_disqus : true
+
+# Facebook share button
+facebook_app_id: 215420429058588
