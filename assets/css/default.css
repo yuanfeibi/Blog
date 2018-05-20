@@ -14,7 +14,7 @@ div.main {
 }
 
 H1, H1N, H2, H2N, H3, H3N, H4, H4N {
-  font-family: "Palatino Linotype", "Book Antiqua", Palatino, Helvetica, STKaiti, SimSun, serif; 
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, Helvetica, STKaiti, SimSun, serif;
   width: 98%;
   line-height: 150%;
   color: #000000;
@@ -88,7 +88,7 @@ b {
   color: #000000;
   word-wrap: break-word;
   word-break: break-all;
-  font-style: italic; 
+  font-style: italic;
   font-weight:400;
 }
 
@@ -163,17 +163,17 @@ div.detail {
   margin-left: 5%;
   margin-right: 5%;
   font-size: 1em;
-  float: left; 
+  float: left;
 }
 
 div.date {
   display: block;
   padding-top: 1px;
   margin-left: 5%;
-  width: 25%; 
+  width: 25%;
   color: #000000;
-  text-align: left; 
-  font-style: italic; 
+  text-align: left;
+  font-style: italic;
   font-size: 1em;
 }
 
@@ -231,4 +231,43 @@ td {
 
 tr:nth-child(2n) {
   background-color: #f8f8f8;
+}
+
+/* Share buttons */
+.sharebuttons {
+  margin: 0 auto 0 auto;
+}
+
+.sharebuttons ul {
+  margin: 20px 0 40px 0;
+  text-align: center;
+}
+
+.sharebuttons ul li {
+  display: inline;
+}
+
+.sharebuttons ul li a {
+  text-decoration: none;
+}
+
+.sharebuttons ul li svg {
+  width: 20px;
+  height: 20px;
+}
+
+.sharebuttons .reddit svg {
+  fill: #FF4500;
+}
+
+.sharebuttons .facebook svg {
+  fill: #3b5998;
+}
+
+.sharebuttons .twitter svg {
+  fill: #1DA1F2;
+}
+
+.sharebuttons .linkedin svg {
+  fill: #0077B5;
 }

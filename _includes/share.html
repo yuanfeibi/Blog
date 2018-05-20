@@ -1,3 +1,34 @@
-<hr>
-<div class="bdsharebuttonbox"><a href="#" class="bds_more" data-cmd="more"></a><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a><a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网"></a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a></div>
-<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"1","bdSize":"16"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+<div class="sharebuttons">
+  <hr />
+  <ul>
+    <li class="twitter">
+      <a  href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ site.baseurl }}{{ page.url }}"
+        onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+        title="Share on Twitter" >
+        {% include social/share-icon-twitter.svg %}
+      </a>
+    </li>
+    <li class="googleplus">
+      <a href="https://plus.google.com/share?url=http://goharsha.com{{ include.url }}&hl=en-U"
+ onclick="javascript:window.open(this.href,'',
+  'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"
+        onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+        title="Share on Google+"/>
+        {% include social/share-icon-googleplus.svg %}
+      </a>
+    </li>
+    <li class="linkedin">
+      <a  href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ site.baseurl }}{{ page.url }}&title={{ page.title }}&summary={{ page.description }}&source={{ site.title }}"
+        onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+        title="Share on LinkedIn" >
+        {% include social/share-icon-linkedin.svg %}
+      </a>
+    </li>
+    <li class="email">
+    <a  href="mailto:?subject={{ page.title }}&amp;body=Check out this site {{ site.url }}{{ site.baseurl }}{{ page.url }}"
+            title="Share via Email" >
+    {% include social/share-icon-email.svg %}
+    </a>
+    </li>
+  </ul>
+</div>
