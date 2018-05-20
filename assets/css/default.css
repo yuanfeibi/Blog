@@ -235,7 +235,7 @@ tr:nth-child(2n) {
 
 /* Share buttons */
 .sharebuttons {
-  margin: 0 auto 0 auto;
+  margin: 0;
 }
 
 .sharebuttons ul {
