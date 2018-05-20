@@ -20,6 +20,23 @@ new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 	<link rel="bookmark" href={{ "/favicon.ico" | prepend: site.baseurl }} type="image/x-icon" />
     </head>
     <body>
+      <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+          appId      : '215420429058588',
+          xfbml      : true,
+          version    : 'v2.5'
+          });
+        };
+
+        (function(d, s, id){
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) {return;}
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_US/sdk.js";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+      </script>
 	<!-- Google Tag Manager (noscript) -->
 	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K3W5HW8" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<!-- End Google Tag Manager (noscript) -->
